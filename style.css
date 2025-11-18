@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background: #222;
+  color: #eee;
+  margin: 0;
+  padding: 10px;
+}
+h1 {
+  margin: 4px 0 10px;
+}
+#ui {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#commandInput {
+  flex: 1;
+  padding: 6px;
+}
+#runBtn,
+#voiceBtn {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+#log {
+  flex-basis: 100%;
+  max-height: 130px;
+  overflow: auto;
+  font-size: 12px;
+  background: #111;
+  padding: 6px;
+  border: 1px solid #444;
+}
+canvas {
+  background: #000;
+  border: 1px solid #555;
+  image-rendering: pixelated;
+}
+.msg {
+  margin: 0 0 4px;
+}
